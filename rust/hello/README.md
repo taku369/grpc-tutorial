@@ -2,7 +2,7 @@
 
 ```
 $ cargo run --bin hello-server
-   Compiling hello v0.1.0 (/Users/tfujino/programming/grpc-tutorial/rust/hello)
+   Compiling hello v0.1.0 (grpc-tutorial/rust/hello)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.79s
      Running `target/debug/hello-server`
 gRPC server listening on [::1]:50051
@@ -12,7 +12,7 @@ gRPC server listening on [::1]:50051
 
 ```
 $ cargo run --bin hello-client
-   Compiling hello v0.1.0 (/Users/tfujino/programming/grpc-tutorial/rust/hello)
+   Compiling hello v0.1.0 (grpc-tutorial/rust/hello)
     Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.00s
      Running `target/debug/hello-client`
 RESPONSE="Hello, Jane doe!"
